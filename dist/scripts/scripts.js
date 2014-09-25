@@ -3032,7 +3032,7 @@ angular.module('bulbsCmsApp')
 'use strict';
 
 angular.module('bulbsCmsApp')
-  .value('FIREBASE_URL', 'https://luminous-fire-8340.firebaseio.com/')
+  .value('FIREBASE_URL', 'https://readypress.firebaseio.com/')
   .value('FIREBASE_ROOT', 'a-site-is-not-configured')
     .factory('FirebaseApi', function ($firebase, CurrentUser, FIREBASE_URL, FIREBASE_ROOT) {
 
